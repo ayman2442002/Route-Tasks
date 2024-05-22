@@ -1,0 +1,460 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Alegreya", serif;
+
+}
+
+/* secation-one */
+
+.container .header {
+    background-image: url(../Images/drew-coffman-1872.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.header .header-text {
+    color: white;
+    text-align: center;
+    padding-top: 170px;
+    font-size: 32px;
+}
+
+
+
+.header .header-text p {
+    padding-top: 10px;
+}
+
+.header .header-text .btn-one {
+    background-color: #8E7754;
+    width: 120px;
+    height: 60px;
+    color: white;
+    border-radius: 4px;
+    border: 2px solid transparent;
+    margin-top: 50px;
+    margin-right: 10px;
+    font-size: 15px;
+}
+
+.header .header-text .btn-one:hover {
+    color: black;
+    background-color: white;
+    cursor: pointer;
+}
+
+.header .header-text .btn-two {
+    width: 120px;
+    height: 60px;
+    color: white;
+    border-radius: 4px;
+    border: 2px solid white;
+    background-color: transparent;
+    font-size: 15px;
+
+}
+
+.header .header-text .btn-two:hover {
+    color: black;
+    background-color: white;
+    cursor: pointer;
+}
+
+.nav {
+    width: 80%;
+    margin: auto;
+}
+
+.nav-logo {
+    width: 15%;
+    float: left;
+    padding-top: 20px;
+}
+
+.nav-logo img {
+    width: 100%;
+}
+
+.nav .list {
+    float: right;
+}
+
+.nav .list li {
+    list-style: none;
+    display: inline-block;
+    padding: 30px 20px;
+}
+
+.nav .list li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+    transition: color 1s;
+}
+
+.nav .list li a:hover {
+    color: #8E7754;
+}
+
+/* sectaion-two */
+
+.about {
+    padding: 50px;
+}
+
+.about .about-img {
+    width: 48%;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 40px;
+}
+
+.about .about-img img {
+    width: 100%;
+    width: 600px;
+    display: block;
+    padding-left: 70px;
+}
+
+.about .about-context {
+    width: 48%;
+    display: inline-block;
+}
+
+
+.item-one .icon {
+    display: inline-block;
+    width: 10%;
+    vertical-align: middle;
+}
+
+.item-one .icon img {
+    width: 40px;
+    height: 40px;
+    border: 1px solid rgb(228, 223, 223);
+    border-radius: 50%;
+}
+
+.item-context {
+    width: 80%;
+    display: inline-block;
+}
+
+.about .about-context h2 {
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+
+.about .about-context p {
+    padding-bottom: 20px;
+}
+
+.item-one {
+    margin-bottom: 20px;
+}
+
+.items {
+    padding-top: 20px;
+}
+
+/* sectaion-three */
+
+.location {
+    background-color: #F8F8F8;
+    padding: 80px 150px;
+}
+
+.location .our-location {
+    display: inline-block;
+    width: 45%;
+    padding-right: 100px;
+}
+
+.location .location-img {
+    display: inline-block;
+    width: 45%;
+    vertical-align: middle;
+
+}
+
+.location .location-img img {
+    width: 100%;
+}
+
+.our-location h2 {
+    padding-bottom: 30px;
+}
+
+.our-location p {
+    line-height: 30px;
+}
+
+/* section-four */
+
+.baking {
+    text-align: center;
+    margin: 80px 0;
+}
+
+.baking .baking-items {
+    margin: 30px 150px;
+}
+
+.baking .baking-items .item {
+    margin: 0 20px;
+    width: calc((100% - 120px) / 3);
+    float: left;
+}
+
+.baking .baking-items .item-img img {
+    width: 100%;
+}
+
+.clear-fix {
+    clear: both;
+}
+
+.baking h2 {
+    padding-bottom: 30px;
+    font-size: 32px;
+}
+
+.baking p {
+    color: gray;
+    line-height: 30px;
+}
+
+.baking h4 {
+    padding-bottom: 30px;
+}
+
+/* section-five */
+
+.contact {
+    padding: 80px 150px;
+    background-color: #F8F8F8;
+}
+
+.contact .contact-info {
+    width: 50%;
+    display: inline-block;
+}
+
+.contact .contact-info .icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #8E7754;
+    display: inline-block;
+}
+
+.contact .contact-info h2 {
+    padding-bottom: 70px;
+}
+
+.contact .contact-info p {
+    display: inline-block;
+    transform: translateY(-12px);
+    margin-left: 10px;
+    padding-bottom: 15px;
+}
+
+.contact img {
+    width: 100%;
+}
+
+/* section-six */
+
+.last-section {
+    padding: 80px 150px;
+    background-color: #403D38;
+    color: white;
+    height: 50vh;
+}
+
+.last-section h4 {
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.last-section img {
+    width: 100%;
+}
+
+.last-section .icon {
+    width: 20px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.last-section p {
+    display: inline-block;
+    transform: translateY(-4px);
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.last-section a {
+    text-decoration: none;
+    color: #939392;
+}
+
+.last-section>div {
+    margin: 0 20px;
+    width: calc((100% - 160px) / 4);
+    float: left;
+}
+
+.last-section h4 {
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 400;
+}
+
+.last-section .contact-details {
+    background-image: url(../Images/contact-details-map.png);
+    background-size: contain;
+    background-position: center 130px;
+    background-repeat: no-repeat;
+}
+
+.last-section .contact-details .icon {
+    width: 40px;
+    transform: translateY(13px);
+}
+
+.break-line {
+    background-color: gray;
+    width: 90%;
+    height: 0.5px;
+}
+
+.contact-details .first-icon {
+    display: inline;
+}
+
+/* footer */
+
+footer {
+    background-color: #353330;
+    text-align: center;
+    padding: 50px 0;
+}
+
+footer .icon {
+    background-color: #484540;
+    width: 40px;
+    margin: 0 5px;
+    height: 40px;
+    display: inline-block;
+    margin-top: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+footer p {
+    margin-top: 10px;
+}
+
+footer .icon img {
+    width: 100%;
+}
+
+.facebook:hover {
+    background-color: #3B5998;
+}
+
+.google:hover {
+    background-color: #DD4B39;
+}
+
+.linkedin:hover {
+    background-color: #007BB5;
+}
+
+.twitter:hover {
+    background-color: #00ACED;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .about .about-img
+{
+    display: inline-block;
+    width: 45%;
+    margin-right: 100px;
+} */
+/* 
+.about .about-content{
+    display: inline-block;
+    width: 45%;
+}
+
+.about img{
+    width: 100%;
+}
+
+.about .about-content .icon{
+    width: 40px;
+    height: 40px;
+    border: 1px #D9D9D9 solid;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.about .about-content .items p{
+    display: inline-block;
+    margin-left: 10px;
+    transform: translateY(-12px);
+} */
