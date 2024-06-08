@@ -1,0 +1,472 @@
+:root {
+  --main-color: #0078ff;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.ag-main-color {
+  background-color: #0078ff;
+}
+
+.ag-second-color {
+  background-color: #0062d3;
+}
+
+body {
+  background-color: #f5f5f5;
+}
+
+.title-me {
+  font-weight: 600;
+  color: #1e1e1e;
+  font-size: 1.2rem;
+}
+
+.title-me2 {
+  font-weight: 400;
+  color: rgb(0, 120, 255);
+  font-size: 0.8rem;
+}
+
+.title-me3 {
+  font-weight: 400;
+  color: rgb(78, 78, 78);
+  font-size: 0.8rem;
+}
+
+.about-text {
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
+.fs-48 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 58px;
+}
+
+.fw-300 {
+  font-weight: 300;
+}
+
+.ag-fs-11 {
+  font-size: 0.8rem;
+  letter-spacing: 0.1px;
+}
+
+.ag-fs-21 {
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+.gray-ag {
+  color: rgb(78, 78, 78);
+}
+
+.borders {
+  width: 40px;
+  height: 5px;
+  background-color: var(--main-color);
+  margin: 0 auto;
+}
+
+.ag-info {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 27px;
+  letter-spacing: 1px;
+}
+
+.ag-p-8rem {
+  padding: 8rem;
+}
+
+textarea {
+  resize: none;
+}
+
+.fs-19 {
+  font-size: 19px;
+}
+/*======================= nav-bar ===============================*/
+.my-nav {
+  background-color: rgba(0, 0, 0, 9);
+}
+
+.Home {
+  background-image: url(../image/hero-bg.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.Home-layer {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.home-caption h1 {
+  font-size: 4.5rem;
+}
+
+.home-caption p {
+  font-size: 2.5rem;
+}
+
+.nav-item {
+  position: relative;
+}
+
+.nav-item:after {
+  content: "";
+  position: absolute;
+  background-color: white;
+  height: 3px;
+  width: 0;
+  left: 0;
+  bottom: -10px;
+  transition: width 0.3s;
+}
+
+.nav-item:hover:after {
+  width: 80%;
+}
+
+nav a {
+  color: white !important;
+}
+
+.Type::after {
+  content: "";
+  animation-name: typingSkill;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+.dropdownlink:hover ul {
+  display: block !important;
+}
+
+.dropdown-menu-left {
+  left: 0;
+}
+
+@keyframes typingSkill {
+  0% {
+    content: "F|";
+  }
+
+  2% {
+    content: "Fr|";
+  }
+
+  4% {
+    content: "Fre|";
+  }
+
+  6% {
+    content: "Free|";
+  }
+
+  8% {
+    content: "Freel|";
+  }
+
+  10% {
+    content: "Freela|";
+  }
+
+  12% {
+    content: "Freelan|";
+  }
+
+  14% {
+    content: "Freelanc|";
+  }
+
+  16% {
+    content: "Freelance|";
+  }
+
+  18% {
+    content: "Freelancer|";
+  }
+
+  20% {
+    content: "Freelancer|";
+  }
+
+  22% {
+    content: "Freelance|";
+  }
+
+  24% {
+    content: "Freelanc|";
+  }
+
+  58% {
+    content: "|";
+  }
+
+  60% {
+    content: "P|";
+  }
+
+  62% {
+    content: "Ph|";
+  }
+
+  92% {
+    content: "Photographer|";
+  }
+
+  94% {
+    content: "Photographer|";
+  }
+
+  96% {
+    content: "Photographe|";
+  }
+
+  130% {
+    content: "|";
+  }
+
+  132% {
+    content: "D|";
+  }
+
+  134% {
+    content: "De|";
+  }
+
+  158% {
+    content: "Designer|";
+  }
+
+  /* Pause */
+  160% {
+    content: "Designer|";
+  }
+
+  162% {
+    content: "Designe|";
+  }
+
+  188% {
+    content: "|";
+  }
+
+  190% {
+    content: "";
+  }
+
+  192% {
+    content: "";
+  }
+
+  200% {
+    content: "";
+  }
+}
+
+/* ========================== About ================================ */
+
+.border-me::before {
+  position: absolute;
+  content: "";
+  height: 3px;
+  background-color: var(--main-color);
+  width: 100px;
+  bottom: -10px;
+}
+
+/* ========================== SERVICES ============================= */
+
+.services-box {
+  background-color: #fff;
+  padding: 2.5rem 1.3rem;
+  border-radius: 1rem;
+}
+
+.ico-circle {
+  transition: all 500ms ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  width: 100px;
+  font-size: 2rem;
+  box-shadow: 0 0 0 10px var(--main-color);
+  border-radius: 50%;
+  line-height: 1.55;
+  margin: 0 auto;
+}
+
+.services-box:hover .ico-circle {
+  color: white;
+  background-color: var(--main-color);
+  box-shadow: 0 0 0 10px #0077ff3e;
+}
+
+/*========================== counter ============================= */
+
+.counter {
+  background-image: url(../image/post-3.jpg);
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.overlay-ag {
+  background-color: #0078ff;
+  opacity: 0.7;
+}
+
+.ico-circle-counter {
+  transition: all 500ms ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 70px;
+  width: 70px;
+  font-size: 2rem;
+  box-shadow: 0 0 0 10px white;
+  line-height: 1.55;
+  margin: 0 auto;
+}
+
+.counter-layer {
+  background-color: var(--main-color);
+}
+
+.work-container img {
+  transition: all 1s;
+}
+
+.work-container:hover img {
+  transform: scale(1.3);
+}
+
+/*========================== testimonials =========================*/
+
+.testimonials {
+  background-image: url(../image/overlay-bg.jpg);
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.carousel-indicators [data-bs-target] {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.carousel-indicators {
+  margin-top: 2rem;
+  top: 100%;
+}
+
+/*========================== Blog =================================*/
+
+.card-bottom {
+  top: -16px;
+  left: 15px;
+  right: 15px;
+  line-height: 25px;
+  overflow: hidden;
+}
+
+.card-bottom-include {
+  padding: 4px 15px 1px;
+}
+
+.card-link:hover {
+  color: var(--main-color) !important;
+}
+
+.card-link {
+  transition: color 0.9s;
+}
+
+.small-image-w {
+  width: 2rem;
+  height: 2rem;
+}
+
+.ag-hover {
+  transition: color 0.9s;
+}
+
+.ag-hover:hover {
+  color: var(--main-color);
+}
+
+/* ========================== CONTACT ==============================*/
+
+.contact {
+  box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
+}
+
+.ico-circle-contact {
+  transition: all 500ms ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 40px;
+  font-size: 1rem;
+  box-shadow: 0 0 0 4px var(--main-color);
+  border-radius: 50%;
+  line-height: 1.55;
+  margin: 0 auto;
+}
+
+.fa-facebook,
+.fa-instagram,
+.fa-twitter,
+.fa-linkedin {
+  color: black;
+}
+
+.social-icon li:hover span {
+  background-color: var(--main-color);
+  box-shadow: 0 0 0 10px #0077ff3e;
+  color: white !important;
+}
+
+.social-icon li:hover span i {
+  color: white !important;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  width: 40px;
+  height: 40px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: var(--main-color);
+  color: white;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 4px;
+  border-radius: 50%;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
